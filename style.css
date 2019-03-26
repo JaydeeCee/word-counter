@@ -1,0 +1,47 @@
+body {
+	background-color: #003366;
+	color: white;
+	font-family: calibri;
+}
+
+.input_box {
+	top: 200px;
+}
+
+.radio {
+	font-size: 18px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:10px;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th  {
+  background-color: #694F37;
+  color: white;
+  text-align: center;
+}
+
+#tempTable_info, #tempTable_paginate {
+	color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf6fc !important;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddeedd !important;
+}
